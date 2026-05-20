@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scorecard Writer"
+  short_description: "Draft evidence-based candidate scorecards"
+  default_prompt: "Use $scorecard-writer to turn these interview notes into a validated draft scorecard."

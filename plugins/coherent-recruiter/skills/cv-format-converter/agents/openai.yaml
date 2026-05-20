@@ -1,0 +1,4 @@
+interface:
+  display_name: "CV Format Converter"
+  short_description: "Convert CVs to client-ready format"
+  default_prompt: "Use $cv-format-converter to reformat this CV for client presentation."

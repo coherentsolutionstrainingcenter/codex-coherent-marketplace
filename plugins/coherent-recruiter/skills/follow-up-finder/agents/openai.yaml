@@ -1,0 +1,4 @@
+interface:
+  display_name: "Follow-Up Finder"
+  short_description: "Find and draft candidate follow-ups"
+  default_prompt: "Use $follow-up-finder to identify needed candidate follow-ups and draft messages."

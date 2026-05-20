@@ -1,0 +1,4 @@
+interface:
+  display_name: "Candidate FAQ Responder"
+  short_description: "Draft candidate FAQ replies safely"
+  default_prompt: "Use $candidate-faq-responder to draft a candidate response from this message and FAQ context."

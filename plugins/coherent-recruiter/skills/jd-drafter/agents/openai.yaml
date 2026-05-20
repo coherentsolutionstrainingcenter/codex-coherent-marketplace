@@ -1,0 +1,4 @@
+interface:
+  display_name: "JD Drafter"
+  short_description: "Draft JDs with intake gap checks"
+  default_prompt: "Use $jd-drafter to analyze this job request and draft a job description."

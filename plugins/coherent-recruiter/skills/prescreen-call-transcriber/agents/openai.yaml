@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prescreen Call Transcriber"
+  short_description: "Summarize prescreen calls safely"
+  default_prompt: "Use $prescreen-call-transcriber to structure this prescreen transcript into recruiter notes."

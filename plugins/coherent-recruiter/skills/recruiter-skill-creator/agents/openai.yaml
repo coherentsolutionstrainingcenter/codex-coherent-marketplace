@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recruiter Skill Creator"
+  short_description: "Convert recruiter GPTs into skills"
+  default_prompt: "Use $recruiter-skill-creator to convert this recruiter Custom GPT prompt and eval kit into a Codex skill package."

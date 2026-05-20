@@ -1,0 +1,4 @@
+interface:
+  display_name: "Outreach Library"
+  short_description: "Draft personalized recruiter outreach"
+  default_prompt: "Use $outreach-library to draft a candidate outreach message from this candidate snippet and role context."

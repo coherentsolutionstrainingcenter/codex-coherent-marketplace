@@ -1,0 +1,6 @@
+.DS_Store
+plugins/.DS_Store
+plugins/*/.DS_Store
+
+# Local Codex plugin caches are machine-specific and should not be published.
+plugins/cache/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pipeline Report Generator"
+  short_description: "Generate recruiting pipeline reports"
+  default_prompt: "Use $pipeline-report-generator to turn this pipeline export into a report."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Candidate Relevance Ranker"
+  short_description: "Rank candidate relevance for review"
+  default_prompt: "Use $candidate-relevance-ranker to compare these candidates against this role brief."

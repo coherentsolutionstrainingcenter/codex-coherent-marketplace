@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rejection Letter Drafter"
+  short_description: "Draft safe rejection messages"
+  default_prompt: "Use $rejection-letter-drafter to draft a candidate rejection from this feedback."

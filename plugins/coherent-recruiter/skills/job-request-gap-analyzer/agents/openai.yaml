@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Request Gap Analyzer"
+  short_description: "Find missing job request details"
+  default_prompt: "Use $job-request-gap-analyzer to analyze this job request and draft clarification questions."

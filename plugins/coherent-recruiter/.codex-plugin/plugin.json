@@ -1,0 +1,50 @@
+{
+  "name": "coherent-recruiter",
+  "version": "0.2.0",
+  "description": "Coherent recruiter persona that bundles recruiting skills for intake, JD drafting, sourcing, outreach, follow-up, candidate communication, prescreen, CV conversion, relevance review, scorecards, rejection drafts, pipeline reporting, and recruiter skill maintenance.",
+  "author": {
+    "name": "Coherent Solutions",
+    "email": "local@codex.invalid",
+    "url": "https://www.coherentsolutions.com/"
+  },
+  "homepage": "https://www.coherentsolutions.com/",
+  "repository": "https://www.coherentsolutions.com/",
+  "license": "MIT",
+  "keywords": [
+    "coherent",
+    "recruiting",
+    "sourcing",
+    "talent-acquisition",
+    "job-intake",
+    "candidate-review",
+    "interview-notes",
+    "outreach",
+    "follow-up",
+    "pipeline-reporting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Coherent Recruiter",
+    "shortDescription": "Support Coherent recruiter drafting and review workflows",
+    "longDescription": "Use Coherent Recruiter to route and orchestrate recruiter-owned workflows across local skills for job request gap analysis, job descriptions, Boolean sourcing, outreach, candidate follow-up, candidate FAQ replies, prescreen summaries, CV formatting, candidate relevance review, scorecards, rejection drafts, pipeline reporting, and recruiter skill creation. Outputs are drafts and triage aids for human recruiter validation, not automated hiring decisions.",
+    "developerName": "Coherent Solutions",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.coherentsolutions.com/",
+    "privacyPolicyURL": "https://www.coherentsolutions.com/",
+    "termsOfServiceURL": "https://www.coherentsolutions.com/",
+    "defaultPrompt": [
+      "Turn this intake into JD gaps, sourcing strings, and outreach drafts",
+      "Compare these profiles to the role and prepare recruiter notes",
+      "Convert this CV and interview notes into a profile and scorecard",
+      "Create a weekly recruiting pipeline report from this ATS export"
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recruiter Boolean Builder"
+  short_description: "Build recruiter Boolean search strings"
+  default_prompt: "Use $recruiter-boolean-builder to turn this job brief into LinkedIn, GitHub, and Google X-ray search strings."
