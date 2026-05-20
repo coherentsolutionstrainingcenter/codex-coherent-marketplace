@@ -1,40 +1,40 @@
 # Coherent Recruiter Example Workflows
 
-This document gives recruiters copy-paste prompts for demonstrating and using the Coherent Recruiter plugin in Codex. It focuses on realistic recruiter workflows where several skills work together, not only one skill at a time.
+This document gives recruiters copy-paste prompts for using the Coherent Recruiter plugin in Codex. It focuses on realistic recruiter workflows where several skills work together, not only one skill at a time.
 
 Every output should be treated as a recruiter-owned draft. Codex can help prepare notes, messages, reports, and review aids, but the recruiter validates facts, policy, tone, and next steps before using anything.
 
 ## Start Here
 
-- [Beginner installation guide](PLUGINS-FOR-DUMMIES.md)
-- [Repository README](README.md)
-- [Technical marketplace usage guide](docs/use-this-marketplace.md)
-- [Coherent Recruiter plugin overview](plugins/coherent-recruiter/README.md)
-- [Coherent Recruiter plugin docs](plugins/coherent-recruiter/docs/README.md)
+- [Beginner installation guide](../../PLUGINS-FOR-DUMMIES.md)
+- [Repository README](../../README.md)
+- [Technical marketplace usage guide](../../docs/use-this-marketplace.md)
+- [Coherent Recruiter plugin overview](README.md)
+- [Coherent Recruiter plugin docs](docs/README.md)
 
 ## Human Skill Guides
 
 Use these when you want to learn one skill at a time:
 
-- [Candidate FAQ Responder](plugins/coherent-recruiter/docs/human-guides/candidate-faq-responder-skill.md)
-- [Candidate Relevance Ranker](plugins/coherent-recruiter/docs/human-guides/candidate-relevance-ranker-skill.md)
-- [CV Format Converter](plugins/coherent-recruiter/docs/human-guides/cv-format-converter-skill.md)
-- [Follow-Up Finder](plugins/coherent-recruiter/docs/human-guides/follow-up-finder-skill.md)
-- [JD Drafter](plugins/coherent-recruiter/docs/human-guides/jd-drafter-skill.md)
-- [Job Request Gap Analyzer](plugins/coherent-recruiter/docs/human-guides/job-request-gap-analyzer-skill.md)
-- [Outreach Library](plugins/coherent-recruiter/docs/human-guides/outreach-library-skill.md)
-- [Pipeline Report Generator](plugins/coherent-recruiter/docs/human-guides/pipeline-report-generator-skill.md)
-- [Prescreen Call Transcriber](plugins/coherent-recruiter/docs/human-guides/prescreen-call-transcriber-skill.md)
-- [Recruiter Boolean Builder](plugins/coherent-recruiter/docs/human-guides/recruiter-boolean-builder-skill.md)
-- [Recruiter Skill Creator](plugins/coherent-recruiter/docs/human-guides/recruiter-skill-creator-skill.md)
-- [Rejection Letter Drafter](plugins/coherent-recruiter/docs/human-guides/rejection-letter-drafter-skill.md)
-- [Scorecard Writer](plugins/coherent-recruiter/docs/human-guides/scorecard-writer-skill.md)
+- [Candidate FAQ Responder](docs/human-guides/candidate-faq-responder-skill.md)
+- [Candidate Relevance Ranker](docs/human-guides/candidate-relevance-ranker-skill.md)
+- [CV Format Converter](docs/human-guides/cv-format-converter-skill.md)
+- [Follow-Up Finder](docs/human-guides/follow-up-finder-skill.md)
+- [JD Drafter](docs/human-guides/jd-drafter-skill.md)
+- [Job Request Gap Analyzer](docs/human-guides/job-request-gap-analyzer-skill.md)
+- [Outreach Library](docs/human-guides/outreach-library-skill.md)
+- [Pipeline Report Generator](docs/human-guides/pipeline-report-generator-skill.md)
+- [Prescreen Call Transcriber](docs/human-guides/prescreen-call-transcriber-skill.md)
+- [Recruiter Boolean Builder](docs/human-guides/recruiter-boolean-builder-skill.md)
+- [Recruiter Skill Creator](docs/human-guides/recruiter-skill-creator-skill.md)
+- [Rejection Letter Drafter](docs/human-guides/rejection-letter-drafter-skill.md)
+- [Scorecard Writer](docs/human-guides/scorecard-writer-skill.md)
 
-## How To Demo It
+## How To Use This Guide
 
-For a lecture, start with broad prompts that say `Use Coherent Recruiter`. Codex should route the request across the bundled skills. For deeper demos, ask for a specific skill by ID, such as `$jd-drafter` or `$outreach-library`.
+Start with broad prompts that say `Use Coherent Recruiter`. Codex should route the request across the bundled skills. For focused work, ask for a specific skill by ID, such as `$jd-drafter` or `$outreach-library`.
 
-Good demo formula:
+Good workflow formula:
 
 ```text
 Use Coherent Recruiter to [business outcome].
@@ -120,7 +120,7 @@ Use Teams to find the latest discussion about the Senior QA Automation role, the
 
 ### 3. Sourcing Campaign Pack
 
-Use this to demonstrate a sourcing workflow from role brief to outreach.
+Use this for a sourcing workflow from role brief to outreach.
 
 Skills used: `$recruiter-boolean-builder`, `$outreach-library`, `$follow-up-finder`
 
@@ -281,7 +281,7 @@ Use Outlook Email to search candidate messages from the last 10 days that likely
 
 ### 10. Interview Scheduling Support
 
-Use this to demonstrate how recruiting content connects to calendar work.
+Use this when recruiting content needs to connect to calendar work.
 
 Skills used: `$candidate-faq-responder`, `$follow-up-finder`
 
@@ -345,7 +345,7 @@ Candidate question:
 
 ### 13. Weekly Pipeline Report
 
-Use this for a management-facing demo.
+Use this for a management-facing update.
 
 Skills used: `$pipeline-report-generator`, `$follow-up-finder`, `$job-request-gap-analyzer`
 
@@ -503,7 +503,7 @@ Use SharePoint to fetch the client CV template, then use Coherent Recruiter to f
 
 ### 19. Candidate Question After Rejection
 
-Use this to demonstrate tone and policy guardrails.
+Use this when tone and policy guardrails matter.
 
 Skills used: `$rejection-letter-drafter`, `$candidate-faq-responder`, `$scorecard-writer`
 
@@ -523,21 +523,21 @@ Technical interview completed.
 
 ### 20. Build A New Recruiter Skill From A Course Idea
 
-Use this to show that the marketplace can grow over time.
+Use this when you want to grow the marketplace over time.
 
 Skills used: `$recruiter-skill-creator`
 
 ```text
-Use Coherent Recruiter and $recruiter-skill-creator to turn this course idea into a new Codex skill package plan.
+Use Coherent Recruiter and $recruiter-skill-creator to turn this workflow idea into a new Codex skill package plan.
 Return: proposed skill name, SKILL.md outline, human guide outline, eval checklist ideas, and connections to existing Coherent Recruiter skills.
 
-Course idea:
+Workflow idea:
 Recruiters need a reusable workflow for preparing hiring-manager calibration meetings. It should combine role intake notes, sample candidate profiles, market feedback, and questions for the stakeholder.
 ```
 
-## Fast Lecture Demo Sequence
+## Quick Starter Sequence
 
-If you only have 20-30 minutes, use this order:
+If you want a quick first pass through the plugin, use this order:
 
 1. Scenario 1: show end-to-end role launch from a messy intake.
 2. Scenario 3: show Boolean and outreach generation.
@@ -545,7 +545,7 @@ If you only have 20-30 minutes, use this order:
 4. Scenario 7: show prescreen notes to scorecard.
 5. Scenario 13: show pipeline report and Teams-style update.
 
-This sequence demonstrates intake, sourcing, communication, candidate review, interview documentation, and reporting.
+This sequence covers intake, sourcing, communication, candidate review, interview documentation, and reporting.
 
 ## Safety Reminders For Recruiters
 

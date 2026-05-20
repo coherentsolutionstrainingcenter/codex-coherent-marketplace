@@ -51,7 +51,7 @@ Then create an empty GitHub repository and push this folder to it.
 
 For non-technical users, start with [PLUGINS-FOR-DUMMIES.md](PLUGINS-FOR-DUMMIES.md). It explains the ZIP download flow and the exact Codex config blocks to paste.
 
-For live demos and recruiter training, use [EXAMPLE-WORKFLOWS.md](EXAMPLE-WORKFLOWS.md). It contains copy-paste workflow prompts that combine multiple Coherent Recruiter skills.
+For recruiter workflow examples, use [plugins/coherent-recruiter/EXAMPLE-WORKFLOWS.md](plugins/coherent-recruiter/EXAMPLE-WORKFLOWS.md). It contains copy-paste prompts that combine multiple Coherent Recruiter skills.
 
 Use [docs/use-this-marketplace.md](docs/use-this-marketplace.md) to clone the marketplace and enable the plugin in Codex.
 

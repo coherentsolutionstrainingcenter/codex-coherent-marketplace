@@ -299,7 +299,7 @@ Send your trainer:
 
 For technical users:
 
-- [Example workflows](EXAMPLE-WORKFLOWS.md)
+- [Coherent Recruiter example workflows](plugins/coherent-recruiter/EXAMPLE-WORKFLOWS.md)
 - [Marketplace usage guide](docs/use-this-marketplace.md)
 - [Publishing guide](docs/publish-to-github.md)
 - [Repository README](README.md)
