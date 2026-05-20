@@ -49,6 +49,8 @@ Then create an empty GitHub repository and push this folder to it.
 
 ## For Codex Users
 
+For non-technical users, start with [PLUGINS-FOR-DUMMIES.md](PLUGINS-FOR-DUMMIES.md). It explains the ZIP download flow and the exact Codex config blocks to paste.
+
 Use [docs/use-this-marketplace.md](docs/use-this-marketplace.md) to clone the marketplace and enable the plugin in Codex.
 
 The short version is:
