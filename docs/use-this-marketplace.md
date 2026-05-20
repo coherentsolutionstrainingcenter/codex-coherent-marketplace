@@ -8,16 +8,10 @@ Choose a stable folder for local Codex marketplaces:
 
 ```bash
 mkdir -p ~/codex-marketplaces
-git clone https://github.com/<owner>/coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace
+git clone https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace
 ```
 
-Replace `<owner>` with the GitHub user or organization that published the repository.
-
-If the repository is private, authenticate with GitHub first, or clone with SSH:
-
-```bash
-git clone git@github.com:<owner>/coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace
-```
+This is a public repository, so no authentication is required.
 
 ## 2. Register The Marketplace In Codex
 

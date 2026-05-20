@@ -48,8 +48,8 @@ Before publishing, open `plugins/coherent-recruiter/.codex-plugin/plugin.json` a
     "email": "<public support email>",
     "url": "https://www.coherentsolutions.com/"
   },
-  "homepage": "https://github.com/<owner>/coherent-marketplace",
-  "repository": "https://github.com/<owner>/coherent-marketplace"
+  "homepage": "https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace",
+  "repository": "https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace"
 }
 ```
 
@@ -116,20 +116,20 @@ The `git status` output should not include `plugins/cache/` or `.DS_Store`.
 Option A: GitHub CLI.
 
 ```bash
-gh repo create <owner>/coherent-marketplace --public --source=. --remote=origin --push
+gh repo create coherentsolutionstrainingcenter/codex-coherent-marketplace --public --source=. --remote=origin --push
 ```
 
 For a private marketplace, use `--private` instead of `--public`.
 
 Option B: GitHub website.
 
-1. Open GitHub and create a new empty repository named `coherent-marketplace`.
+1. Open GitHub and create a new empty repository named `codex-coherent-marketplace`.
 2. Do not initialize it with a README, license, or `.gitignore`, because this folder already has those docs.
 3. Copy the repository URL.
 4. Run:
 
 ```bash
-git remote add origin https://github.com/<owner>/coherent-marketplace.git
+git remote add origin https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace.git
 git branch -M main
 git push -u origin main
 ```
@@ -140,7 +140,7 @@ After pushing, test the repository the same way another user would:
 
 ```bash
 mkdir -p ~/codex-marketplaces
-git clone https://github.com/<owner>/coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace-test
+git clone https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace-test
 python3 -m json.tool ~/codex-marketplaces/coherent-marketplace-test/.agents/plugins/marketplace.json
 python3 -m json.tool ~/codex-marketplaces/coherent-marketplace-test/plugins/coherent-recruiter/.codex-plugin/plugin.json
 ```
@@ -152,7 +152,7 @@ If both JSON files validate, the marketplace is ready to share.
 Send users the repository URL and this guide:
 
 ```text
-https://github.com/<owner>/coherent-marketplace/blob/main/docs/use-this-marketplace.md
+https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace/blob/main/docs/use-this-marketplace.md
 ```
 
 When you add more plugins later, place them under `plugins/<plugin-name>/` and append an entry to `.agents/plugins/marketplace.json` with a relative `source.path`.

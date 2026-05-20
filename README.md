@@ -54,7 +54,7 @@ Use [docs/use-this-marketplace.md](docs/use-this-marketplace.md) to clone the ma
 The short version is:
 
 ```bash
-git clone https://github.com/<owner>/coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace
+git clone https://github.com/coherentsolutionstrainingcenter/codex-coherent-marketplace.git ~/codex-marketplaces/coherent-marketplace
 ```
 
 Then add the marketplace path to `~/.codex/config.toml` and enable:
