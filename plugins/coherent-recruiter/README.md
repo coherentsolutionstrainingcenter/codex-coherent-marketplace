@@ -36,4 +36,6 @@ Each guide gives recruiters examples, workflow ideas, and operating notes for th
 - Create a pipeline report from this ATS export.
 - Turn this Custom GPT recruiter workflow into a Codex skill package.
 
+For lecture demos and multi-skill scenarios, see [../../EXAMPLE-WORKFLOWS.md](../../EXAMPLE-WORKFLOWS.md).
+
 All outputs are drafts or triage aids for recruiter validation.
